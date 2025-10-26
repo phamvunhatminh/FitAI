@@ -70,3 +70,5 @@ pose_debug/
 ehthumbs.db
 Icon?
 desktop.ini
+
+!package.json
