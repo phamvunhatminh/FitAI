@@ -1,0 +1,72 @@
+# =====================================
+# Node / Vite project ignore rules
+# =====================================
+
+# Node dependencies
+node_modules/
+
+# Vite build output
+dist/
+build/
+out/
+
+# Local environment settings
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Cache
+.vite/
+.cache/
+.tmp/
+*.temp
+*.tmp
+
+# Lock files (optional – chỉ nếu bạn không muốn commit lock)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Misc
+*.bak
+*.old
+*.orig
+
+# =====================================
+# Mediapipe / FitAI specific
+# =====================================
+
+# Video uploads / test videos
+public/videos/
+src/assets/videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Debug / AI pose output
+pose_debug/
+*.json
+*.csv
+
+# =====================================
+# OS + System
+# =====================================
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
